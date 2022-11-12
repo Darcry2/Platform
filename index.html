@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>wowFood</title>
+    <!-- MDB icon -->
+    <link rel="icon" href="./images/logo.png" type="image/x-icon" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <!-- Google Fonts Roboto -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+    />
+    <!-- MDB -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+  </head>
+  <body>
+    <!-- Start your project here-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <!-- Container wrapper -->
+      <div class="container">
+
+        <a class="navbar-brand" href="#">
+          <img src="./images/logo.png" height="50" alt="MDB Logo" loading="lazy"/>
+        </a>
+
+        <!-- Toggle button -->
+        <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarRightAlignExample" aria-controls="navbarRightAlignExample" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fas fa-bars"></i>
+        </button>
+        <!-- Just an image -->
+        <!-- Collapsible wrapper -->
+        <div class="collapse navbar-collapse" id="navbarRightAlignExample">
+          <!-- Left links -->
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item m-1">
+              <a class="nav-link" style="color: #063062;" saria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item m-1">
+              <a class="nav-link" style="color: #063062;" aria-current="page" href="categories.html">Categories</a>
+            </li>
+            <li class="nav-item m-1">
+              <a class="nav-link" style="color: #063062;" aria-current="page" href="category-foods.html">Foods</a>
+            </li>
+            <li class="nav-item m-1">
+              <a class="nav-link" style="color: #063062;" aria-current="page" href="#">Contact</a>
+            </li>
+          </ul>
+          <!-- Left links -->
+        </div>
+        <!-- Collapsible wrapper -->
+      </div>
+      <!-- Container wrapper -->
+    </nav>
+            <!-- Background image -->
+<div class="bg-image img-fluid img-responsive justify-content-center align-items-center" style="background-image: url('./images/bg.jpg'); height: 30vh;">
+  <section class="food-search text-center d-flex mt-5">
+    <div class="container">
+        <form action="food-search.html" class="mt-5" method="POST" style="margin-top: 50px;">
+            <input type="search" class="form-control m-1 mt-2 border-primary" name="search" placeholder="Search for Food.." required>
+            <input type="submit" name="submit" value="Search" class="btn btn-dark mt-2">
+        </form>
+    </div>
+</section>
+</div>
+<!-- Background image -->
+ <!-- CAtegories Section Starts Here -->
+ <hr>
+ <h2 class="text-center">MENU</h2>
+<hr>
+ <section class="food-menu">
+  <div class="container">
+<div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col">
+    <div class="card h-100">
+      <img src="./images/pizza.jpg" class="card-img-top" alt="Skyscrapers"/>
+      <div class="card-body">
+        <h5 class="card-title text-center">Pizza</h5>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Order Now!</small>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="./images/burger.jpg" class="card-img-top" alt="Los Angeles Skyscrapers"/>
+      <div class="card-body">
+        <h5 class="card-title text-center">Burger</h5>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Order Now!</small>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="./images/momo.jpg" class="card-img-top" alt="Palm Springs Road"/>
+      <div class="card-body">
+        <h5 class="card-title text-center">Momo</h5>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Order Now!</small>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</section>
+<!-- Categories Section Ends Here -->
+<hr>
+<h2 class="text-center">ORDER</h2>
+<hr>
+<section class="food-menu">
+  <div class="container">
+<div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col">
+    <div class="card h-100">
+      <img src="./images/menu-pizza.jpg" class="card-img-top" alt="Skyscrapers"/>
+      <div class="card-body">
+        <h5 class="card-title">Pizza</h5>
+        <p class="food-price fw-bolder"> Price - $4.1</p>
+
+        <p>Made with Italian Sauce, Chicken, and organice vegetables.</p>
+      </div>
+      <div class="card-footer text-center">
+        <a href="#" class="btn btn-primary">Order Now</a>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="./images/menu-burger.jpg" class="card-img-top" alt="Los Angeles Skyscrapers"/>
+      <div class="card-body">
+        <h5 class="card-title">Burger</h5>
+        <p class="food-price fw-bolder"> Price - $3.2</p>
+
+        <p>Made with Pork, Barbecue Sauce, and organice vegetables.</p>
+      </div>
+      <div class="card-footer text-center">
+        <a href="#" class="btn btn-primary">Order Now</a>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="./images/menu-momo.jpg" class="card-img-top" alt="Palm Springs Road"/>
+      <div class="card-body">
+        <h5 class="card-title">Chicken Steam Momo</h5>
+        <p class="food-price fw-bolder"> Price - $2.3</p>
+
+        <p>Made with Ground Pork, Chicken Sauce, and organice vegetables.</p>
+      </div>
+      <div class="card-footer text-center">
+        <a href="#" class="btn btn-primary">Order Now</a>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</section>
+
+<!-- fOOD Menu Section Ends Here -->
+<section>
+<footer class="text-center text-white">
+  <!-- Grid container -->
+  <div class="container p-4 pb-0">
+    <!-- Section: Social media -->
+    <section class="mb-4">
+      <!-- Facebook -->
+      <a
+        class="btn text-white btn-floating m-1"
+        style="background-color: #3b5998;"
+        href="#!"
+        role="button"
+        ><i class="fab fa-facebook-f"></i
+      ></a>
+
+      <!-- Twitter -->
+      <a
+        class="btn text-white btn-floating m-1"
+        style="background-color: #55acee;"
+        href="#!"
+        role="button"
+        ><i class="fab fa-twitter"></i
+      ></a>
+
+      <!-- Google -->
+      <a
+        class="btn text-white btn-floating m-1"
+        style="background-color: #dd4b39;"
+        href="#!"
+        role="button"
+        ><i class="fab fa-google"></i
+      ></a>
+
+      <!-- Instagram -->
+      <a
+        class="btn text-white btn-floating m-1"
+        style="background-color: #ac2bac;"
+        href="#!"
+        role="button"
+        ><i class="fab fa-instagram"></i
+      ></a>
+
+      <!-- Linkedin -->
+      <a
+        class="btn text-white btn-floating m-1"
+        style="background-color: #0082ca;"
+        href="#!"
+        role="button"
+        ><i class="fab fa-linkedin-in"></i
+      ></a>
+      <!-- Github -->
+      <a
+        class="btn text-white btn-floating m-1"
+        style="background-color: #333333;"
+        href="#!"
+        role="button"
+        ><i class="fab fa-github"></i
+      ></a>
+    </section>
+    <!-- Section: Social media -->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © Created By:
+    <a class="text-white" href="https://mdbootstrap.com/">wowFood.com</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+
+
+    <!-- End your project here-->
+  </body>
+    <!-- MDB -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Custom scripts -->
+    <script type="text/javascript"></script>
+  </body>
+</html>
